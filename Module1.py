@@ -14,7 +14,7 @@ def load_csv(csv_file):
 
 def main():
     # Test the import_data function
-    df = import_data("weather_train.csv")
+    df = load_csv("Weather Training Data.csv")
     print(df)
 
 if __name__ == "__main__":
